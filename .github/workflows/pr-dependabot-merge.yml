@@ -30,7 +30,7 @@ jobs:
         run: echo "title=$(gh pr view --json=title --jq '.title' $PR_URL)" >> $GITHUB_OUTPUT
 
       - name: Squash & Merge
-        uses: "pascalgn/automerge-action@v0.16.2"
+        uses: "pascalgn/automerge-action@v0.16.3"
         id: squashmerge
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
