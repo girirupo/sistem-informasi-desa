@@ -25,7 +25,7 @@
 
 </style>
 <div id="pageC">
-    <?php view('analisis_master/left',$data);?>
+    <?= view('analisis_master/left',$data);?>
     <div class="content-header">
     </div>
     <div id="contentpane">

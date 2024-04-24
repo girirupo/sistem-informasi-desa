@@ -1,4 +1,4 @@
-<?php view('layouts/header.php');?>
+<?= view('layouts/header.php');?>
 <div id="contentwrapper">
     <div id="contentcolumn">
         <div class="innertube" style="padding-left:10px;">
@@ -44,7 +44,7 @@
 </div>
 <div id="rightcolumn">
     <div class="innertube">
-        <?php view('partials/side.right.stat.php');?>
+        <?= view('partials/side.right.stat.php');?>
     </div>
 </div>
 

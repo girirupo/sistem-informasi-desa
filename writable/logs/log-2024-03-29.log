@@ -1,0 +1,465 @@
+CRITICAL - 2024-03-29 13:41:15 --> Error: Cannot call constructor
+in APPPATH\Controllers\First.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\First->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:43:27 --> Error: Call to undefined function App\Controllers\mandiri_timeout()
+in APPPATH\Controllers\First.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\First->initController()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:46:09 --> ErrorException: Undefined property: App\Controllers\First::$load
+in APPPATH\Controllers\First.php on line 17.
+ 1 APPPATH\Controllers\First.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\First->initController()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:48:34 --> ErrorException: Undefined property: App\Controllers\First::$load
+in APPPATH\Controllers\First.php on line 17.
+ 1 APPPATH\Controllers\First.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\First->initController()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:49:53 --> ErrorException: Undefined property: App\Controllers\First::$load
+in APPPATH\Controllers\First.php on line 17.
+ 1 APPPATH\Controllers\First.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\First->initController()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:53:50 --> ErrorException: Undefined property: App\Controllers\First::$load
+in APPPATH\Controllers\First.php on line 17.
+ 1 APPPATH\Controllers\First.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\First->initController()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:55:46 --> ErrorException: Declaration of App\Models\Config_model::update($id = 0) must be compatible with CodeIgniter\Model::update($id = NULL, $row = NULL): bool
+in APPPATH\Models\Config_model.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 13:56:28 --> Error: Class 'yidas\Model' not found
+in APPPATH\Models\Config.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH\Config\Factories.php(273): class_exists()
+ 7 SYSTEMPATH\Config\Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 8 SYSTEMPATH\Config\Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 9 SYSTEMPATH\Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+10 APPPATH\Controllers\BaseController.php(72): model()
+11 APPPATH\Controllers\First.php(13): App\Controllers\BaseController->initController()
+12 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\First->initController()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:57:04 --> ErrorException: Declaration of App\Models\Penduduk_model::update($id = 0) must be compatible with CodeIgniter\Model::update($id = NULL, $row = NULL): bool
+in APPPATH\Models\Penduduk_model.php on line 601.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 13:57:49 --> ErrorException: Declaration of App\Models\Penduduk_model::delete($id = '') should be compatible with CodeIgniter\BaseModel::delete($id = NULL, bool $purge = false)
+in APPPATH\Models\Penduduk_model.php on line 718.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 6 [internal function]: spl_autoload_call()
+ 7 SYSTEMPATH\Config\Factories.php(273): class_exists()
+ 8 SYSTEMPATH\Config\Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 9 SYSTEMPATH\Config\Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+10 SYSTEMPATH\Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+11 APPPATH\Controllers\BaseController.php(80): model()
+12 APPPATH\Controllers\First.php(13): App\Controllers\BaseController->initController()
+13 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\First->initController()
+14 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:58:02 --> ErrorException: Declaration of App\Models\Surat_keluar_model::update($id = 0) must be compatible with CodeIgniter\Model::update($id = NULL, $row = NULL): bool
+in APPPATH\Models\Surat_keluar_model.php on line 229.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 13:58:38 --> Error: Class 'App\Controllers\Config' not found
+in APPPATH\Controllers\First.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:59:00 --> Error: Call to a member function get() on array
+in APPPATH\Controllers\First.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:00:00 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\First.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:00:16 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\First_menu_m.php on line 14.
+ 1 APPPATH\Controllers\First.php(55): App\Models\First_menu_m->list_menu_atas()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:00:55 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Models\First_artikel_m.php on line 15.
+ 1 APPPATH\Controllers\First.php(57): App\Models\First_artikel_m->get_headline()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:01:39 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\First_artikel_m.php on line 97.
+ 1 APPPATH\Controllers\First.php(61): App\Models\First_artikel_m->artikel_show()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:02:31 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+in APPPATH\Models\First_artikel_m.php on line 195.
+ 1 APPPATH\Controllers\First.php(66): App\Models\First_artikel_m->slide_show()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:03:02 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\First_penduduk_m.php on line 74.
+ 1 APPPATH\Controllers\First.php(68): App\Models\First_penduduk_m->list_data()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:03:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Models\First_penduduk_m.php on line 87.
+ 1 APPPATH\Controllers\First.php(68): App\Models\First_penduduk_m->list_data()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:04:32 --> ErrorException: Undefined index: nama_desa
+in APPPATH\Views\layouts\header.php on line 5.
+ 1 APPPATH\Views\layouts\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\layouts\main.tpl.php(1): view()
+ 6 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\First.php(73): view()
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:05:47 --> ErrorException: Undefined index: nama_desa
+in APPPATH\Views\layouts\header.php on line 5.
+ 1 APPPATH\Views\layouts\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\layouts\main.tpl.php(1): view()
+ 6 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\First.php(73): view()
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:06:20 --> ErrorException: Undefined index: nama_desa
+in APPPATH\Views\layouts\header.php on line 5.
+ 1 APPPATH\Views\layouts\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\layouts\main.tpl.php(1): view()
+ 6 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\First.php(73): view()
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:07:54 --> ErrorException: Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\partials\side.right.php on line 198.
+ 1 APPPATH\Views\partials\side.right.php(198): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\partials\\side.right.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\layouts\main.tpl.php(11): view()
+ 6 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\First.php(73): view()
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:09:46 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Views\partials\side.right.php on line 202.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH\Views\layouts\main.tpl.php(11): view()
+ 5 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\First.php(73): view()
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:10:16 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Views\partials\side.right.php on line 206.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH\Views\layouts\main.tpl.php(11): view()
+ 5 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\First.php(73): view()
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->index()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 14:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 14:13:04 --> Error: Call to a member function get() on array
+in APPPATH\Controllers\First.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->artikel()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 14:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 14:16:44 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\KategoriModel.php on line 20.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:20:02 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Builder::$findAll
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Models\KategoriModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:20:12 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:20:40 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRestult()
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:20:46 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:20:49 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResults()
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:21:57 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:22:31 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:23:02 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Models\KategoriModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 14:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 14:24:24 --> ErrorException: Undefined offset: 0
+in APPPATH\Models\KategoriModel.php on line 25.
+ 1 APPPATH\Models\KategoriModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 14:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:31:21 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\partials\content.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH\Views\layouts\main.tpl.php(5): view()
+ 5 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\First.php(421): view()
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:31:52 --> ErrorException: Undefined offset: 0
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Models\KategoriModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:32:11 --> ErrorException: Undefined offset: 10
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Models\KategoriModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:32:55 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\partials\content.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH\Views\layouts\main.tpl.php(5): view()
+ 5 SYSTEMPATH\View\View.php(228): include('F:\\SOURCE\\ataslangit\\SID_IIS\\donjo-app\\Views\\layouts\\main.tpl.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\First.php(421): view()
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:33:56 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:34:02 --> ErrorException: Undefined offset: 0
+in APPPATH\Models\KategoriModel.php on line 24.
+ 1 APPPATH\Models\KategoriModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\First.php(419): App\Models\KategoriModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:41:32 --> ErrorException: Undefined offset: 0
+in APPPATH\Controllers\First.php on line 419.
+ 1 APPPATH\Controllers\First.php(419): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\First->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:41:36 --> ErrorException: Cannot use [] for reading
+in APPPATH\Controllers\First.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:44:09 --> ErrorException: Undefined property: App\Controllers\Siteman::$load
+in APPPATH\Controllers\Siteman.php on line 14.
+ 1 APPPATH\Controllers\Siteman.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\Siteman->initController()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:46:33 --> ErrorException: Declaration of App\Models\User_model::update($id = 0) must be compatible with CodeIgniter\Model::update($id = NULL, $row = NULL): bool
+in APPPATH\Models\User_model.php on line 261.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 22:40:19 --> Error: Class 'BaseController' not found
+in APPPATH\Controllers\Main.php on line 5.
+ 1 SYSTEMPATH\Router\AutoRouter.php(162): include_once()
+ 2 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute()
+ 3 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute()
+ 4 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:40:50 --> ErrorException: Declaration of App\Models\User_model::update($id = 0) must be compatible with CodeIgniter\Model::update($id = NULL, $row = NULL): bool
+in APPPATH\Models\User_model.php on line 261.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 22:41:36 --> ErrorException: Declaration of App\Models\User_model::update($id = 0) must be compatible with CodeIgniter\Model::update($id = NULL, $row = NULL): bool
+in APPPATH\Models\User_model.php on line 261.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 22:42:18 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "first" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH\Controllers\Main.php(52): redirect()
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 22:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 22:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 23:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 23:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 23:04:21 --> ParseError: syntax error, unexpected 'return' (T_RETURN), expecting ';'
+in APPPATH\Controllers\Siteman.php on line 43.
+ 1 SYSTEMPATH\Router\Router.php(530): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(226): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:04:53 --> ErrorException: Undefined property: App\Controllers\Siteman::$load
+in APPPATH\Controllers\Siteman.php on line 14.
+ 1 APPPATH\Controllers\Siteman.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\Siteman->initController()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

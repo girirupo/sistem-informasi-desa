@@ -4,13 +4,10 @@
   "license": "GPL-3.0-or-later",
   "require": {
     "php": ">=7.4",
-    "codeigniter/framework": "^3",
-    "vlucas/phpdotenv": "^5.5",
-    "yidas/codeigniter-model": "^2.19"
+    "codeigniter4/framework": "4.4.7"
   },
   "require-dev": {
-    "codeigniter4/devkit": "^1.1",
-    "filp/whoops": "^2.15"
+    "codeigniter4/devkit": "^1.1"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,

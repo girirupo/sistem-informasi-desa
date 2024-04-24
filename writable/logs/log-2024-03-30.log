@@ -1,0 +1,15 @@
+CRITICAL - 2024-03-30 00:09:37 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\User_model.php on line 117.
+ 1 APPPATH\Controllers\Siteman.php(23): App\Models\User_model->logout()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Siteman->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 00:15:53 --> ErrorException: Undefined variable: _SESSION
+in APPPATH\Models\User_model.php on line 125.
+ 1 APPPATH\Models\User_model.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Siteman.php(23): App\Models\User_model->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Siteman->index()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

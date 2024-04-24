@@ -1,4 +1,4 @@
-<?php view('layouts/header.php');?>
+<?= view('layouts/header.php');?>
 <div id="contentwrapper">
     <div id="contentcolumn">
         <div class="innertube">
@@ -22,12 +22,12 @@
 </div>
 <div id="rightcolumn">
     <div class="innertube">
-        <?php view('partials/side.right.stat.php');?>
+        <?= view('partials/side.right.stat.php');?>
     </div>
 </div>
 
 <div id="footer">
-    <?php 
+    <?php
 				view('partials/copywright.tpl.php');
 				?>
 </div>

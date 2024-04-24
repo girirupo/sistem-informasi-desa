@@ -57,7 +57,7 @@
                     <div id="headercontent">
                         <div id="menu_vert">
                             <div id="menuwrapper">
-                                <?php view('partials/menu.tpl.php');?>
+                                <?= view('partials/menu.tpl.php');?>
                             </div>
                         </div>
                         <div id="menu_vert2">
@@ -96,7 +96,7 @@
 					} ?>
 
                 <div id="mainmenu">
-                    <?php view('partials/menu.left.php');?>
+                    <?= view('partials/menu.left.php');?>
                 </div>
 
             </div>

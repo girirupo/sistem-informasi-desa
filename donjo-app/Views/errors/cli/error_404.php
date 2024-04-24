@@ -1,8 +1,7 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-echo "\nERROR: ",
-	$heading,
-	"\n\n",
-	$message,
-	"\n\n";
+use CodeIgniter\CLI\CLI;
+
+CLI::error('ERROR: ' . $code);
+CLI::write($message);
+CLI::newLine();

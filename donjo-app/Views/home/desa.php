@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <div class="ui-layout-center" id="maincontent" style="padding: 5px;">
-                        <?php view('home/about.php');?>
+                        <?= view('home/about.php');?>
                     </div>
                     <div class="ui-layout-south panel bottom">
                         <div class="left">

@@ -1,4 +1,4 @@
-<?php view('print/headjs.php');?>
+<?= view('print/headjs.php');?>
 
 <body>
     <div id="content" class="container_12 clearfix">
